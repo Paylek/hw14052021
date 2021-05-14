@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE employes [
+        <!ELEMENT employes (#PCDATA|employee)*>
+        <!ELEMENT employee ( #PCDATA )>
+        <!ATTLIST employee name CDATA #REQUIRED>
+        <!ATTLIST employee position CDATA #REQUIRED>
+        <!ATTLIST employee branch CDATA #REQUIRED>
+        <!ATTLIST employee experience CDATA #REQUIRED>
+        ]>
+
+<employes>
+    <employee name="Maksim" position="surgeon" branch="3" experience="12"/>
+    <employee name="Pavel" position="urologist" branch="2" experience="4"/>
+    <employee name="Madina" position="gynecologist" branch="2" experience="5"/>
+    <employee name="Vladislav" position="endocrinologist" branch="1" experience="6"/>
+    <employee name="Dasha" position="physiotherapist" branch="4" experience="2"/>
+    <employee name="Karina" position="therapist" branch="1" experience="7"/>
+</employes>

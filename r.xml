@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<employes>
+    <employee>
+        <position name="Maksim">surgeon</position>
+        <position name="Pavel">urologist</position>
+        <position name="Madina">gynecologist</position>
+        <position name="Vladislav">endocrinologist</position>
+        <position name="Dasha">physiotherapist</position>
+        <position name="Karina">therapist</position>
+    </employee>
+    <users>
+        <user name="Maksim">
+            <branch>3</branch>
+            <experience>12</experience>
+        </user>
+        <user name="Pavel">
+            <branch>2</branch>
+            <experience>4</experience>
+        </user>
+        <user name="Madina">
+            <branch>2</branch>
+            <experience>5</experience>
+        </user>
+        <user name="Vladislav">
+            <branch>1</branch>
+            <experience>6</experience>
+        </user>
+        <user name="Dasha">
+            <branch>4</branch>
+            <experience>2</experience>
+        </user>
+        <user name="Karina">
+            <branch>1</branch>
+            <experience>7</experience>
+        </user>
+    </users>
+</employes>
